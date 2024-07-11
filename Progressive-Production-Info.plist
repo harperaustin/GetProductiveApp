@@ -2,11 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>HarperAustin.Get-Productive</string>
+	</array>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Getproductivefont-Regular.ttf</string>
 		<string>Retro Gaming.ttf</string>
 		<string>PressStart2P-Regular.ttf</string>
+		<string>DinAlternate-Bold</string>
+		<string>Jersey15-Regular.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
 	</array>
 </dict>
 </plist>
